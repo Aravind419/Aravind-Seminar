@@ -15,6 +15,7 @@ header {
 
 main {
     padding: 20px;
+    margin-bottom: 100px; /* Add margin to avoid overlap */
 }
 
 section {
@@ -32,6 +33,27 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.subject {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.subject h3 {
+    margin: 0;
+}
+
+.resources {
+    display: none;
+    margin-top: 10px;
+}
+
+.subject:hover .resources {
+    display: block;
 }
 
 form {
